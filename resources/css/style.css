@@ -23,7 +23,7 @@ html{
 }
 
 .row {
-    max-width: 900px;;
+    max-width: 1000px;;
     margin: 0 auto;
 
 }
@@ -31,7 +31,7 @@ html{
 
 header{
     background-image:
-    url('../../resources/img/banner2.png');
+    url('../../resources/img/logo/logomaior.jpg');
     height: 100vh;
     /*CENTRALIZA*/
     background-position: center;
@@ -72,7 +72,7 @@ h3{
     position: absolute;
     width: 950px;
     top: 70%;
-    left: 61.5%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
 
@@ -132,11 +132,16 @@ form {
   
 
 .logo{
-    height: 100px;
+    height:80px;
     float: left;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-left: 80px;
 }
 
+.logoband{
+    height: 150px;
+    border-radius: 50%;
+}
 .main-nav{
     float: right;
     list-style: none;
@@ -332,13 +337,21 @@ section{
     transition: transform 0.5s, opacity 0.5s; 
 }
 
-/*GALERIA*/
+/*FACHADA E RODAPÉ*/
 
-.fachada {
-    
+.texto-fachada li{
+    list-style: none;
+}
+
+.imagens-rodape {
+    display:flex;
+
+}
+
+.fachada {    
     width: 600px;
     border-radius: 5%;
-    margin-top: 100px;
+   
 }
 
 
@@ -347,6 +360,10 @@ section{
     border-radius: 50%;
     padding: 25px;
 }
+
+
+
+
 
 /*classes MIV*/
 .hexaum {
@@ -449,6 +466,7 @@ footer p{
 
 .internas {
     background-image:
+    linear-gradient(rgba(243, 241, 241, 0.7), rgba(0,0,0,0.4)),
     url('../img/bannerinterno.png');
     height: 60vh;
 }
@@ -545,7 +563,16 @@ header{
     margin: 0;
 }
 
+.imagens-rodape{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.fachada {
+    width:100%;
+}
 
 /* MENU RESPONSIVO*/
 
