@@ -25,3 +25,6 @@ var mySwiper = new Swiper('.swiper-container', {
 $("i").click(function () {
   $("ul").toggleClass("open");
 });
+
+/*GALERIA DO RODAPÉ*/ 
+
