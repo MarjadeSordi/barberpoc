@@ -361,7 +361,17 @@ section{
     padding: 25px;
 }
 
+.gif-rodape {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+ 
+}
 
+.logouni {
+    width: 200px;
+    border-radius: 5%;
+}
 
 
 
@@ -572,6 +582,11 @@ header{
 
 .fachada {
     width:100%;
+}
+
+.texto-fachada{
+    font-size: 16px;
+    margin-left: 10px;
 }
 
 /* MENU RESPONSIVO*/
