@@ -529,7 +529,17 @@ fieldset {
     margin-top: 80px;
 }
 
-/*PARALLAX*/
+/*PRODUTOS*/
+
+.produtos {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.qod{
+    width: 400px;
+}
 
 
 /*RESPONSIVO*/
@@ -663,7 +673,13 @@ header{
 }
 
 /*PRODUTOS*/
+.qod {
+    width: 150px;
+}
 
+.alfaparf {
+    width: 150px;
+}
 
 
 /*FORM*/
