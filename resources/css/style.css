@@ -18,7 +18,7 @@ html{
 
 .sitemedidas{
     max-width: 2000px;
-    min-width: 400px;
+    min-width: 300px;
     margin: 0 auto;
 }
 
@@ -135,7 +135,7 @@ form {
     height:80px;
     float: left;
     margin-top: 10px;
-    margin-left: 80px;
+    margin-left: 2%;
 }
 
 .logoband{
@@ -176,6 +176,9 @@ form {
     border-radius: 50%;
 }
 
+figcaption{
+    margin-left: 20px;
+}
 
 a {
     color: black;
@@ -598,7 +601,9 @@ header{
     float: left; 
     width: 50%; 
 }
-
+.texto-quebra{
+    margin: 10px;
+}
 .photo {
     width: 100%;
     margin: 0;
