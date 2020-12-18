@@ -11,14 +11,7 @@
     <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.0/themes/base/jquery-ui.css" />
     <script src="http://code.jquery.com/jquery-1.8.2.js"></script>
     <script src="http://code.jquery.com/ui/1.9.0/jquery-ui.js"></script>
-    
-    <script>
-        $(function() {
-            $( "#calendario" ).datepicker();
-        });
-        </script>
-    
-    
+
     
 <title> Barber Poc </title>
 </head>
@@ -36,6 +29,29 @@
                 </ul>
             </div>
         </nav>
+<!--MENU RESPONSIVO-->
+<nav class="sidebar-navigation">
+
+    <img src='../resources/img/logo/barber_sem_fundo.png' class='logotipo'/>
+    <ul>
+        <li class="active">
+            <a href="index.html"> HOME </a>
+        </li>
+        <li>
+            <a href="quemsomos.html"> SOBRE </a>
+        </li>
+        <li>
+            <a href="portifólio.html"> PORTIFÓLIO </a>
+        </li>
+        <li>
+            <a href="produtos.html"> PRODUTOS </a>
+        </li>
+        <li>
+         <a href="form.html"> CONTATO </a> 
+        </li>
+    </ul>
+</nav>
+<!--ENCERRA MENU RESPONSIVO-->
     </header>
 </body>
 <section>
@@ -44,10 +60,12 @@
 <div class='texto-form'>
 	    <p>
 		Queremos saber um pouco sobre você antes de te encaminhar para o profissional certo.<br>
-        Que tal preencher esse formulário mais detalhado? 
+        Que tal preencher esse formulário mais detalhado? <br>
         Se não estiver com vontade, pode marcar o horário direto pela nossa página principal.
-		</p>
+        </p>
+
 </div>
+<div class='span-12-of-12'> 
 <fieldset>
 	<form name = "fcad" action="" method = "post" class="form">
 
@@ -73,7 +91,7 @@
 	<input type ="text" name ="endereço completo">
 	<br>
 	<br>
-	<label for ="Porqueprocuraconsultoria"> Qual é seu estilo preferido? Se não souber responder, conta para gente sobre
+	<label for ="text"> Qual é seu estilo preferido? Se não souber responder, conta para gente sobre
     suas séries, suas divas pop, e coisas que você curte.  </br></label> <br>
 	<textarea name="tx" cols="70" rows ="5">
 	</textarea>

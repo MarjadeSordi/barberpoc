@@ -18,12 +18,12 @@ html{
 
 .sitemedidas{
     max-width: 2000px;
-    min-width: 500px;
+    min-width: 400px;
     margin: 0 auto;
 }
 
 .row {
-    max-width: 1000px;;
+    max-width: 1000px;
     margin: 0 auto;
 
 }
@@ -139,7 +139,7 @@ form {
 }
 
 .logoband{
-    height: 150px;
+    height: 100px;
     border-radius: 50%;
 }
 .main-nav{
@@ -359,6 +359,7 @@ section{
     width: 250px;
     border-radius: 50%;
     padding: 25px;
+    background-color:#272727;
 }
 
 .gif-rodape {
@@ -497,8 +498,10 @@ fieldset {
 .swiper-container {
     width: 400px;
     height: 350px;
+    border-radius: 5%;
     
-}   
+}  
+
 
 .imagem-slider {
     width: 400px;
@@ -506,13 +509,26 @@ fieldset {
     overflow:hidden; 
 }
 
-.swiper-button {
-    color: #F5E5D9;
+.swiper-button-prev {
+    background-color:rgba(243, 241, 241, 0.7);
 }
 
-.quemsomos{
-    height: 800px;
+.swiper-button-next{
+    background-color:rgba(243, 241, 241, 0.7);
 }
+
+.professor {
+    margin-top: 80px;
+}
+
+.barbeiro {
+    margin-top: 80px;
+}
+
+.veronica {
+    margin-top: 80px;
+}
+
 /*PARALLAX*/
 
 
@@ -528,20 +544,25 @@ header{
     url('../img/iris.jpeg');
     background-position: center;
 }
+
     
 .desktopmenu {
     visibility: hidden;
 }
+
+.internas {
+    visibility: hidden;
+}
+
 
 .sitemedidas {
     margin: 0px auto;
 }
 
 .calendario-text-box {
-    visibility: hidden;}
+    visibility: hidden;
+    width: 100px;
 
-.row {
-    max-width: 500px;
 }
 
 .texto-destaque {
@@ -578,6 +599,12 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-left: 30px;
+    padding:20px;
+}
+
+.foto-lado{
+   width: 200px;
 }
 
 .fachada {
@@ -587,6 +614,67 @@ header{
 .texto-fachada{
     font-size: 16px;
     margin-left: 10px;
+    margin-right: 10px;
+}
+
+.logouni {
+    width:100px;
+}
+
+/*QUEM SOMOS*/
+.img-faggots{
+    width: 200px;
+    border-radius: 50%;
+}
+
+.texto-curriculo{
+    margin-left: 20px;
+}
+
+/*PORTIFÓLIO*/
+
+.professor{
+    justify-content: center;
+}
+
+.professor h3{
+    margin-left: 20px;
+}
+
+.swiper-container {
+    width: 300px;
+    height: 250px;
+    border-radius: 5%;
+    
+}  
+
+.barbeiro h3 {
+    margin-left: 20px;
+}
+
+.veronica h3{
+    margin-left: 20px;
+}
+
+.imagem-slider {
+    width: 300px;
+    height: 250px;
+    overflow:hidden; 
+}
+
+/*PRODUTOS*/
+
+
+
+/*FORM*/
+.texto-form {
+    margin: 30px;
+    font-size: 16px;
+}
+
+.form {
+    margin: 10px;
+    font-size: 16px;
 }
 
 /* MENU RESPONSIVO*/
@@ -598,10 +686,10 @@ header{
 .sidebar-navigation {
     visibility: visible;
     display: inline-block;
-    min-height: 80vh;
+    min-height: 50vh;
     width: 120px;
     background-color:#ddddddd0;
-    float: left;
+    float:left;
 }
 
 .sidebar-navigation a{
@@ -610,12 +698,14 @@ header{
 
 .sidebar-navigation ul {
         text-align: center;
-        color: #000;}
+        color: #000;
+        list-style: none;}
         
         li {
             padding: 10px 0;
             cursor: pointer;
             transition: all ease-out 120ms;
+            list-style: none;
             
             i {
                 display: block;
