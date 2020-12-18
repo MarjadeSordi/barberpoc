@@ -642,6 +642,12 @@ header{
 }
 
 /*PORTIFÓLIO*/
+.portifolio {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+  
+}
 
 .professor{
     justify-content: center;
@@ -651,13 +657,16 @@ header{
     margin-left: 20px;
 }
 
+
 .swiper-container {
     width: 300px;
     height: 250px;
     border-radius: 5%;
     
 }  
-
+.carousel {
+    margin-top: 50px;
+}
 .barbeiro h3 {
     margin-left: 20px;
 }
